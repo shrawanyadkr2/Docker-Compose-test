@@ -12,6 +12,13 @@
 - npm run start
 
 ## Docker Installation 
+ - Install Docker 
+ - Strat Postgress
+   - docker run -e POSTGRES_PASSWORD=mypassword -d -p 5432:5432 postgres
+ - build the image - `docker build -t user-project`
+ - strat the image - `docker run -p 3000:3000 user-project`
 
 
 ## Docker Compose installation 
+ - install Docker, docker-compose 
+ - Run `docker-compose up`
